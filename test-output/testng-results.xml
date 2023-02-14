@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-01-26T03:33:46 IST" name="Default suite" finished-at="2023-01-26T03:34:26 IST" duration-ms="39622">
+  <suite started-at="2023-02-15T02:34:42 IST" name="Default suite" finished-at="2023-02-15T02:34:55 IST" duration-ms="12662">
     <groups>
     </groups>
-    <test started-at="2023-01-26T03:33:46 IST" name="Default test" finished-at="2023-01-26T03:34:26 IST" duration-ms="39622">
+    <test started-at="2023-02-15T02:34:42 IST" name="Default test" finished-at="2023-02-15T02:34:55 IST" duration-ms="12662">
       <class name="Scraping.scrape_learning">
-        <test-method is-config="true" signature="connectmongodb()[pri:0, instance:Scraping.scrape_learning@173ed316]" started-at="2023-01-26T03:33:46 IST" name="connectmongodb" finished-at="2023-01-26T03:33:46 IST" duration-ms="131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- connectmongodb -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:Scraping.scrape_learning@173ed316]" started-at="2023-01-26T03:33:46 IST" name="setup" finished-at="2023-01-26T03:34:18 IST" duration-ms="32134" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Scraping.scrape_learning@4b741d6d]" started-at="2023-02-15T02:34:42 IST" name="setup" finished-at="2023-02-15T02:34:51 IST" duration-ms="8409" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="webscrapetest()[pri:0, instance:Scraping.scrape_learning@173ed316]" started-at="2023-01-26T03:34:18 IST" name="webscrapetest" finished-at="2023-01-26T03:34:26 IST" duration-ms="7381" status="PASS">
+        <test-method signature="webscrapetest()[pri:0, instance:Scraping.scrape_learning@4b741d6d]" started-at="2023-02-15T02:34:51 IST" name="webscrapetest" finished-at="2023-02-15T02:34:55 IST" duration-ms="4199" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- webscrapetest -->
