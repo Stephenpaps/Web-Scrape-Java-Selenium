@@ -11,6 +11,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+
 import com.mongodb.client.MongoClient;
 import com.mongodb.client.MongoClients;
 import com.mongodb.client.MongoCollection;
@@ -44,7 +45,7 @@ public class scrape_learning {
 
 	}
 
-	@Test
+	@Test(priority = 1)
 	public void webscrapetest() {
 		driver.get("https://books.toscrape.com/");
 
